@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="instagram.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+    <title>Instagram.com</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="Heading">
+        <h1>Instagram</h1>
+      </div>
+      <div class="form-box">
+        <form action="/login" method="post">
+          <label for="login"></label><br />
+          <input
+            type="text"
+            id="login"
+            name="login"
+            placeholder="Phone number,username or email address"
+          />
+
+          <label for="password"></label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="password"
+            minlength="8"
+            maxlength="16"
+            required
+          />
+
+          <br />
+          <br />
+
+          <button type="submit">Log in</button>
+          <!-- OR......<input type="submit" value="log in"> -->
+        </form>
+      </div>
+      <br />
+      <div class="separator">OR</div>
+      <p>
+        <a href="https://www.facebook.com/login" class="Facebook-login"
+          ><i id="facebook" class="fa fa-facebook" aria-hidden="true"></i>Log in
+          with Facebook</a
+        >
+      </p>
+      <p>
+        <a
+          href="https://www.instagram.com/accounts/password/reset/"
+          class="password-reset"
+          >Forgotten your password?</a
+        >
+      </p>
+    </div>
+    <br>
+    <div class="sign-up">
+      <p>
+        Do you have an account?
+        <a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a>
+      </p>
+    </div>
+  </body>
+</html>

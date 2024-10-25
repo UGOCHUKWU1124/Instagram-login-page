@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Heading {
+  font-family: billabong;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #262626;
+}
+#container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  padding: 40px;
+  width: 300px;
+  margin-left: 100px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  border-radius: 3px;
+}
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #3897f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+.Facebook-login {
+  text-decoration: none;
+  font-size: 14px;
+  color: #2834b5e3;
+  font-weight: bold;
+}
+.password-reset {
+  text-decoration: none;
+  font-size: 9px;
+  font-weight: lighter;
+  color: #000000d8;
+}
+
+.Facebook-login:hover {
+  text-decoration: underline;
+  background-color: #145dbf;
+}
+.password-reset:hover {
+  text-decoration: underline;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #8e8e8e;
+  margin-left: 20px 0;
+}
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #dbdbdb;
+}
+.separator:not(:empty)::before {
+  margin-right: 10px;
+}
+.separator:not(:empty)::after {
+  margin-left: 10px;
+}
+.sign-up {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  width: 380px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  text-decoration: none;
+}
+.sign-up p {
+  font-size: 15px;
+  color: #262626;
+}
+.sign-up a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3897f0;
+}
